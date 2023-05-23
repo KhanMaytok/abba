@@ -15,7 +15,6 @@
     config must be set up correctly in order for the bot to work properly on your machine.
     Refer to the inline comments below:
 
-    For Lopang enjoyers:
     Set your first bifrost point to be at lopang island.
     Exact location to be right in front of the NPC machine which stands farthest to the entrance.
     Then set your 2/4/5 (because i dont have no3 unlocked) bifrost location to be right in front of those three lopang quest hand-in NPCs.
@@ -61,7 +60,7 @@ config = {
         "abilities": (625, 779, 300, 155),
         "leaveMenu": (0, 154, 250, 300),
         "buffs": (625, 780, 300, 60),
-        "center": (685, 280, 550, 420),
+        "center": (685, 280, 600, 420),
         "portal": (228, 230, 1370, 570),
     },
     "screenResolutionX": 1920,
@@ -75,7 +74,7 @@ config = {
     "timeLimit": 450000,  # to prevent unexpected amount of time spent in a chaos dungeon, a tiem limit is set here, will quit after this amount of seconds
     "timeLimitAor": 720000,  # to prevent unexpected amount of time spent in a chaos dungeon, a tiem limit is set here, will quit after this amount of seconds
     "blackScreenTimeLimit": 30000,  # if stuck in nothing for this amount of time, alt f4 game, restart and resume.
-    "delayedStart": 3000,
+    "delayedStart": 2500,
     "portalPause": 700,
     "healthCheckX": 690,
     "healthCheckY": 854,
@@ -103,6 +102,8 @@ config = {
         [960, 530],
         [1160, 530],
         [760, 620],
+        [960, 620],
+        [1160, 620],
     ],
     "charSelectConnectX": 1030,
     "charSelectConnectY": 684,
